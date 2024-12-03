@@ -81,7 +81,7 @@ const App = () => {
                     // height: '100%',
                     // width: '100%',
                     border: '3px solid green',
-                }} width="640" height="480" />
+                }} width="640" height="200" />
                 {scanning ? <Scanner scannerRef={scannerRef} cameraId={cameraId} onDetected={(result) => setResults([...results, result])} /> : null}
             </div>
         </div>
